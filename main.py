@@ -1,4 +1,6 @@
 import QuantLib as ql
+# Ref: http://gouthamanbalaraman.com/blog/american-option-pricing-quantlib-python.html
+
 
 # Input parameters
 maturity_date = ql.Date(2, 6, 2023)
@@ -7,7 +9,6 @@ strike_price = 335
 volatility = 0.2901
 dividend_rate =  0.0078
 option_type = ql.Option.Call
-
 risk_free_rate = 0.001
 day_count = ql.Actual365Fixed()
 calendar = ql.UnitedStates(ql.UnitedStates.NYSE)
