@@ -1,5 +1,4 @@
 import QuantLib as ql
-# Ref: http://gouthamanbalaraman.com/blog/american-option-pricing-quantlib-python.html
 
 
 # Input parameters
